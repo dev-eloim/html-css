@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor. </p>
+    <video src="midias/videoex010.webm" width="300"  controls></video>
+    <p>Outro modo de colocar o video:</p>
+    <video  width="300" poster="imagens/imagem-001.png" controls>
+        <source src="midias/videoex010.mp4" type="video/mp4">
+        <source src="midias/videoex010.mkv" type="video/mkv"> <!--mkv e m4v nao sao compátiveis com o meu chrome sem algum tipo de conversor-->
+        <source src="midias/videoex010.m4v" type="video/m4v">
+    </video>
+    <h1>Incorporando videos externos</h1>
+    <iframe width="300" height="400" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+</body>
+</html>

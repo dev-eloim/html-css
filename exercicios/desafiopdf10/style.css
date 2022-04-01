@@ -1,0 +1,89 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'Android' ;
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-size: 16px;
+    text-align: justify;
+
+    
+}
+main >h1{
+    font-family: 'Android';
+    font-size: 4em;
+    font-weight: normal;
+    background-image:linear-gradient( to right, #29ca6c83,#7cebaa9c,  #76eca705);
+    
+}
+ h2{
+    font-family: 'Android';
+    font-size: 4em;
+    font-weight: normal;
+}
+
+body{
+    background-color: rgba(157, 240, 149, 0.274);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.247);
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: 16px;
+
+}
+header{
+    
+    background-image:linear-gradient( to right, #156838,#1f9c53,  #2ee67b);
+    box-shadow: 1px 1px 4px black;
+}
+header > h1{
+    text-align: center;
+}
+header > p{
+    text-align: center;
+    
+}
+.home:hover, .noticias:hover, .curiosidades:hover, .faleconosco:hover{
+    
+    text-decoration: underline;
+    
+    
+}
+nav{
+    text-align:left;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+
+}
+.home, .noticias, .curiosidades, .faleconosco{
+    padding: 10px;
+    margin: 10px;
+   background-color: rgb(42, 165, 118);
+   text-decoration-line: initial;
+ 
+ 
+
+}
+main{
+    background-color: white;
+    border: 97px;
+    margin: 0px 128px;
+}
+main >h2{
+    background-image:linear-gradient( to right, #29ca6c83,#7cebaa9c,  #76eca705);
+}
+image{
+    padding: 44px;
+    margin: 59px;
+    
+}
+video{
+    padding: 48px;
+    width: 717px;
+    height: 280px;
+    margin-left: 46px;
+    margin-right: 98px;
+}

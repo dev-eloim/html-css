@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Links</title>
+    <style>
+        a{
+            color: fuchsia;
+            font-weight: bolder;
+            text-decoration: none;
+        }
+        a:hover{
+            color: chocolate;
+            text-decoration: underline;
+        }
+        a:visited{
+            color: green;
+        }
+        a:active{
+            color: indigo;
+        }
+        a::after{
+            content:	'✔';
+
+        }
+        a::before{
+            content: '✘';
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li> <a href="https://youtube.com">Site do Youtube</a></li>
+        <li> <a href="https://instagram.com" target="_blank">Site do instagram</a></li>
+        <li><a href="https://fonts.google.com">Site do google fonts</a></li>
+
+
+
+    </ul>
+    
+</body>
+</html>
