@@ -1,0 +1,28 @@
+
+
+button{
+    background-color: blue;
+    color: rgb(255, 238, 0);
+    width: 0px 89px;
+    margin: 10%;
+    padding-right: 4vw;
+}
+
+p {
+    color: darkorange;
+ 
+
+}
+a{
+    text-decoration: none;
+}
+
+nav > select{
+    display: block;
+}
+#mainmenu{
+    background-color: grey;
+    width: 100px;
+    height: 200px;
+    
+}
