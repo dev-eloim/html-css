@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#contatos > p, a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+}
+
+nav{
+    background-color: rgba(192, 192, 192, 0.288);
+    padding: 32px;
+}
+
+nav > a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 30px;
+    
+}
+nav >a:hover{
+    text-decoration: underline;
+    
+}
+
+header{
+    padding: 110px;
+    background-image: url(https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: absolute;
+    left: 100%;
+    top: 100%;
+    background-attachment: fixed;
+}
+
+#logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+#cliqueaqui{
+    width: 1200px;
+    height: 50px;
+
+    background-color: white;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 10px;
+    margin-top: -50px;
+    
+}
+
+#cliqueaqui >p{
+    font-family: arial, sans-serif;
+    padding: 30px 53px;
+    font-size: 1.5em;
+}
+
+#cliqueaqui > .botao1{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    width: 150px;
+    height: 70px;
+    background-color: white;
+    border: solid;
+    color: rgba(255, 166, 0, 0.322);
+    margin: -58px 735px;
+    
+    
+}
