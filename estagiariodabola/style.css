@@ -13,7 +13,7 @@ body{
     align-items: center;
     height: 100vh;
     font-size: 25px;
-   background-color: rgba(6, 82, 6, 0.562);
+   background-color: rgb(255, 255, 255);
 }
 .box{
     width: 65px;
@@ -27,6 +27,7 @@ body{
     cursor: pointer;
     transition: all 1s ease;
     text-decoration: solid;
+    text-align: justify;
 }
 .box:hover{
     width: 200px;
@@ -40,19 +41,22 @@ body{
 }
 .box:nth-child(1):hover{
     background-color: rgba(255, 0, 0, 0.664);
-    box-shadow: 0 0 50px rgb(255, 255, 255);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.445);
 }
 .box:nth-child(2):hover{
-    background-color: rgba(229, 255, 0, 0.562);
-    box-shadow: 0 0 50px rgb(255, 255, 255);
+    background-color: rgba(255, 0, 242, 0.89);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.432);
 }
 .box:nth-child(3):hover{
     background-color: rgba(26, 1, 255, 0.521);
-    box-shadow: 0 0 50px rgb(255, 255, 255);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.473);
 }
 .navbar p{
     transform: translate(60px);
 }
 a{
     text-decoration: none;
+}
+h1{
+    text-decoration: solid;
 }
